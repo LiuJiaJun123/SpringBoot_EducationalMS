@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+
+<!--teacherMapper-->
+
+<mapper namespace="com.liujiajun.mapper.TeacherMapperCustom">
+    <select id="findByPaging"  resultType="TeacherCustom">
+        select teacher.*, college.collegeName
+        from teacher, college
+        WHERE teacher.collegeID = college.collegeID
+    </select>
+
+    <!--根据姓名模糊查找课程-->
+    <select id="selectByName" resultType="teacherCustom" parameterType="teacherCustom" >
+        select teacher.*, college.collegeName
+        from teacher, college
+        where teacher.collegeID = college.collegeID
+        <if test="username!=null">
+            and teacher.username like #{username}
+        </if>
+    </select>
+</mapper>

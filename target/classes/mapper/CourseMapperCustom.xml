@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.liujiajun.mapper.CourseMapperCustom">
+
+
+    <!--查找所有课程-->
+    <select id="findByPaging" resultType="CourseCustom">
+        select course.*, college.collegeName
+        from course, college
+        WHERE course.collegeID = college.collegeID
+    </select>
+
+    <!--根据姓名模糊查找课程-->
+    <select id="selectByName" resultType="CourseCustom" parameterType="CourseCustom" >
+        select *
+        from course
+        where 1=1
+        <if test="coursename!=null">
+            and coursename like #{coursename}
+        </if>
+    </select>
+
+</mapper>

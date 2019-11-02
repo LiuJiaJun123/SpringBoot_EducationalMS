@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <!--在左侧《外部库》中找mysql，复制路径-->
+    <classPathEntry location="H:\Maven\maven_repository\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar"/>
+
+    <context id="MysqlTables" targetRuntime="MyBatis3">
+        <!--创建Java类时是否取消生成注释-->
+        <commentGenerator>
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+
+        <!--JDBC数据库连接-->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/EducationalManagementSystem"
+                        userId="root"
+                        password="root">
+        </jdbcConnection>
+
+        <!-- 指定javaBean生成的位置
+            targetPackage：生成的类要放的包，真实的包受enableSubPackages属性控制；
+            targetProject：目标项目，指定一个存在的目录下，生成的内容会放到指定目录中，如果目录不存在，MBG不会自动建目录
+         -->
+        <javaModelGenerator targetPackage="com.liujiajun.po" targetProject="./src/main/java">
+            <property name="enableSubPackages" value="true"/>
+            <!-- 设置是否在getter方法中，对String类型字段调用trim()方法 -->
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+
+
+        <!--  指定mapper映射文件生成的位置
+           targetPackage、targetProject同javaModelGenerator中作用一样-->
+        <sqlMapGenerator targetPackage="mapper" targetProject="./src/main/resources">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+
+        <!-- 指定mapper接口生成的位置 -->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.liujiajun.mapper" targetProject="./src/main/java">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+
+        <!-- 指定数据库表
+        domainObjectName：生成的domain类的名字,当表名和domain类的名字有差异时一定要设置，如果不设置，直接使用表名作为domain类的名字；
+        -->
+        <table tableName="college" domainObjectName="College"></table>
+        <table tableName="course" domainObjectName="Course"></table>
+        <table tableName="role" domainObjectName="Role"></table>
+        <table tableName="selectedcourse" domainObjectName="Selectedcourse"></table>
+        <table tableName="student" domainObjectName="Student"></table>
+        <table tableName="teacher" domainObjectName="Teacher"></table>
+        <table tableName="userlogin" domainObjectName="Userlogin"></table>
+
+    </context>
+</generatorConfiguration>
