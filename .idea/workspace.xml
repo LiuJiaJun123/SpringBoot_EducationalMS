@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2696437d-a97f-4f7d-9dbc-1a2767e8af01" name="默认" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_edu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_edu.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liujiajun/po/College.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liujiajun/po/College.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liujiajun/service/impl/CollegeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liujiajun/service/impl/CollegeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liujiajun/config/WebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liujiajun/config/WebMvcConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liujiajun/po/College.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liujiajun/po/College.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liujiajun/service/impl/CollegeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liujiajun/service/impl/CollegeServiceImpl.class" afterDir="false" />
-    </list>
+    <list default="true" id="2696437d-a97f-4f7d-9dbc-1a2767e8af01" name="默认" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -116,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/liujiajun/config/RedisConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="361">
+              <caret line="67" column="49" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/liujiajun/service/impl/CollegeServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+            <state relative-caret-position="420">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -191,10 +181,11 @@
       <find>1111111</find>
       <find>111111</find>
       <find>CachingConfigurerSupport</find>
-      <find>11111</find>
       <find>findAll</find>
       <find>1111</find>
       <find>handleCacheGetError：key -&gt;</find>
+      <find>11111</find>
+      <find>handleCacheGetError</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -250,7 +241,7 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=local" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="730" />
     <option name="width" value="785" />
     <option name="height" value="835" />
@@ -387,7 +378,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573313012694" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573314817165" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../springboot_redis2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -443,7 +434,7 @@
       <workItem from="1572760054257" duration="3249000" />
       <workItem from="1572947514475" duration="636000" />
       <workItem from="1573008284946" duration="3071000" />
-      <workItem from="1573308846523" duration="4048000" />
+      <workItem from="1573308846523" duration="5743000" />
     </task>
     <task id="LOCAL-00001" summary="logback.xml">
       <created>1572664282431</created>
@@ -456,11 +447,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28641000" />
+    <option name="totallyTimeSpent" value="30336000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -472,7 +462,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39093485" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37252125" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -622,20 +612,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liujiajun/config/RedisConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liujiajun/service/impl/CollegeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="420">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liujiajun/service/impl/CollegeServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liujiajun/config/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        <state relative-caret-position="361">
+          <caret line="67" column="49" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

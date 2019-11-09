@@ -32,7 +32,7 @@ ORM框架：Mybatis
 ### 1、运行环境和所需工具
 * 编译器：IntelliJ IDEA
 * 项目构建工具：Maven
-* 数据库：Mysql
+* 数据库：Mysql、Redis
 * JDK版本：jdk1.8
 * Tomcat版本：Tomcat8.x
 
